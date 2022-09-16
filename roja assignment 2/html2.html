@@ -1,0 +1,59 @@
+<html>
+<head>
+      
+     
+     <link rel="stylesheet"  href="ad.css"> 
+</head>
+<body>
+  <div class="container">
+        <div class="navbar">
+             <img src="brand.png" class="logo">
+             <nav >
+		     <ul id="menuList">
+    		       <li><a href="">YAMAHA FZ VERSIONS</a></li>
+    		       <li><a href="">Accessories</a></li>
+    		       <li><a href="">Materials</a></li>
+    		       <li><a href="">Others</a></li>
+		     </ul>
+	         </nav>
+              <img src="menu.png" class="menu-icon" 
+              onclick="togglemenu()">
+        </div>
+	<div class="row">
+		<div class="col-1">
+			<h2>YAMAHA FZS-FI V3<br>latest version</h2>
+			<h3>More Customized ABS Features and Max power engine </h3>
+			<p>(DLX variant)</p>
+			<h4>Rs.1.21-1.24 Lakh</h4>
+                  <button type="button">Purchase <img src="click.png">
+                  </button>
+		</div>
+		<div class="col-2">
+                <img src="FZ.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                  <img src="plus.png">
+                  <p><small>Add to cart</small></p>
+                </div>
+             </div>
+      
+	 
+  </div>
+
+  <script>
+     var menuList = document.getElementById("menuList");
+     menuList.style.maxHeight = "0px";
+     function togglemenu(){
+          if(menuList.style.maxHeight == "0px")
+                {
+                       menuList.style.maxHeight = "130px";
+                }
+          else
+                {
+                       menuList.style.maxHeight = "0px";
+                }
+      }
+   </script>
+
+</body>
+</html>
